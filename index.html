@@ -101,6 +101,10 @@ border-radius:10px;
 
 .steps{
 margin-top:80px;
+background:white;
+padding:40px 50px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
 }
 
 .steps h2{
@@ -110,22 +114,34 @@ margin-bottom:30px;
 
 .step{
 display:flex;
-align-items:flex-start;
-margin-bottom:30px;
+align-items:center;
+padding:18px;
+border-radius:12px;
+transition:0.2s;
+}
+
+.step:hover{
+background:#ffe3ef;
+transform:translateX(5px);
 }
 
 .number{
-background:#ff4da6;
+background:linear-gradient(135deg,#ff4da6,#ff2e88);
 color:white;
 font-weight:bold;
-width:40px;
-height:40px;
+width:45px;
+height:45px;
 display:flex;
 align-items:center;
 justify-content:center;
-border-radius:10px;
+border-radius:12px;
 margin-right:20px;
-box-shadow:0 4px 10px rgba(0,0,0,0.2);
+font-size:18px;
+box-shadow:0 6px 14px rgba(0,0,0,0.2);
+}
+
+.step b{
+font-size:18px;
 }
 
 </style>
