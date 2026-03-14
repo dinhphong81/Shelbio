@@ -4,86 +4,104 @@
 <head>
 <meta charset="UTF-8">
 <title>Shelbio</title>
-<link rel="stylesheet" href="style.css">
-</head>
 
-<body>
+<style>
 
-<nav class="nav">
-<div class="logo">Shelbio</div>
+body{
+background:#e2bfc8;
+font-family:Arial;
+margin:0;
+}
 
-<div class="menu">
-<a href="#">Home</a>
-<a href="#">Profile</a>
-</div>
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#4b240c;
+color:white;
+}
 
-<button class="connect">Connect</button>
-</nav>
+nav a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+}
 
-<section class="hero">
+.connect{
+background:#ff69b4;
+border:none;
+padding:8px 16px;
+border-radius:8px;
+}
 
-<div class="hero-left">
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px;
+}
 
-<span class="badge">On-chain BIO</span>
+.hero{
+display:flex;
+justify-content:space-between;
+background:#f1c8d3;
+padding:40px;
+border-radius:20px;
+}
 
-<h1>Shelbio</h1>
+.hero-left{
+max-width:550px;
+}
 
-<p>
-Verifiable global object storage for AI. The data layer your workloads have been waiting for
-</p>
+.hero-left h1{
+font-size:55px;
+color:#ff4da6;
+margin:10px 0;
+}
 
-<div class="buttons">
-<button class="build">Let's Build</button>
-<button class="data">Where is data stored?</button>
-</div>
+.hero-left p{
+color:#333;
+font-size:17px;
+background:white;
+padding:12px;
+border-radius:8px;
+}
 
-</div>
+.buttons button{
+margin-top:10px;
+margin-right:10px;
+padding:8px 14px;
+border-radius:6px;
+border:none;
+}
 
-<div class="hero-card">
+.card{
+background:#4b240c;
+color:white;
+padding:30px;
+border-radius:16px;
+text-align:center;
+width:250px;
+}
 
-<h3>Connect with me</h3>
+.avatar{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:10px;
+border:4px solid white;
+}
 
-<p>Click or scan QR</p>
+.qr{
+width:140px;
+margin-top:10px;
+border-radius:10px;
+}
 
-<img class="avatar" src="avatar.png">
-<img class="qr" src="qr.png">
+.steps{
+margin-top:80px;
+}
 
-
-</div>
-
-</section>
-
-<section class="steps">
-
-<h2>How to build your BIO</h2>
-
-<div class="step">
-<span>1</span>
-<div>
-<h4>Connect wallet</h4>
-<p>Connect and claim tokens</p>
-</div>
-</div>
-
-<div class="step">
-<span>2</span>
-<div>
-<h4>Build profile</h4>
-<p>Add avatar and social links</p>
-</div>
-</div>
-
-<div class="step">
-<span>3</span>
-<div>
-<h4>Store on chain</h4>
-<p>Submit transaction</p>
-</div>
-</div>
-
-</section>
-
-<script src="script.js"></script>
-
-</body>
-</html>
+.steps h2{
+font-size
